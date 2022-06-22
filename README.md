@@ -20,7 +20,7 @@ Clone this repo, create a virtual environment, and install the required librarie
 
 ### Step 3: Clean the Data
 
-Run the `clean-data.py` script to generate the `fire_dashboard.csv` file fo use in Tableau.
+Run the `clean-data.py` script to generate the `data/clean/fire_dashboard.csv` file fo use in Tableau.
 
 ### Challenge: Create a Dashboard
 
@@ -30,8 +30,9 @@ Create a Tableau dashboard with multiple visualizations of the data. Example vis
 - Line graph of calls by month
 - Heatmap of calls by priority
 - Heatmap of calls by Category
+- Graph of calls by Agency Name
 
-Your dashboard can include dynamic filtering, sorting graph elements, and other Tableau features.
+Your dashboard can include dynamic filtering, sorting graph elements, and other Tableau features. Publish the Dashboard to Tableau Public and share your dashboard in the #may22-course2-data-analytics Slack channel.
 
 [Example dashboard](https://public.tableau.com/app/profile/jeff.dillon3251/viz/FireCalls_16558458057010/FireCallsDashboard)
 
@@ -48,4 +49,4 @@ Update the cleaning script to include a new column called `TIME_TO_CLEAR_CATEGOR
 - 10 to 20
 - 20 or more
 
-Use this new column to create a Histogram visualization.
+Use this new column to create a Histogram visualization. You can create a pull request against this repo and I will review the code. You can include a link to your dashboard in the pull request too,
