@@ -1,5 +1,4 @@
-
-[Tableau How-to Videos](https://public.tableau.com/en-us/s/resources)# fire-calls-dashboard
+# fire-calls-dashboard
 This is a coding challenge for the Code Louisville Data Analysis 2 class. The 
 goal of this challenge is to get experience creating dashboards in Tableau. 
 
