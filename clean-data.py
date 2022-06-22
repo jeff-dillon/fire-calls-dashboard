@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 import pandas as pd
 import numpy as np
@@ -27,6 +28,11 @@ df['CLEAR_DT'] = np.where(df['CLEAR_DT'] < df['CREATE_DT'], df['CLEAR_DT'] + pd.
 df['TIME_TO_CLEAR'] = ((df['CLEAR_DT'] - df['CREATE_DT']).astype('timedelta64[m]'))
 df['TIME_TO_CLEAR'] = df['TIME_TO_CLEAR'].astype(int)
 
+# make sure the clean data folder exists
+clean_data_folder = ('data/clean')
+check_folder = os.path.isdir(clean_data_folder)
+if not check_folder:
+    os.makedirs(clean_data_folder)
 
 # write the clean data files
 df.to_csv(Path('data/clean/fire_dashboard.csv'), index=False)
