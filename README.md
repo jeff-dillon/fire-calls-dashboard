@@ -29,7 +29,7 @@ Create a Tableau dashboard with multiple visualizations of the data. Example vis
 - Geographic heatmap of calls by zip
 - Line graph of calls by month
 - Heatmap of calls by priority
-- Heatmap of calls by Category
+- Heatmap of calls by Event Category
 - Graph of calls by Agency Name
 
 Your dashboard can include dynamic filtering, sorting graph elements, and other Tableau features. Publish the Dashboard to Tableau Public and share your dashboard in the #may22-course2-data-analytics Slack channel.
